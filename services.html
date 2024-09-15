@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - CAR A-Z DETAILING</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Styling */
+        body {
+            background-color: #111;
+            color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header nav ul {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            padding: 15px;
+            list-style: none;
+        }
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #ffcc00;
+        }
+
+        p {
+            text-align: justify;
+            margin: 15px 10px;
+        }
+
+        /* Image Section */
+        .service-images {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            padding: 10px 20px;
+        }
+        .service-image {
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .service-image img {
+            width: 500px; /* Fixed width */
+            height: 350px; /* Fixed height */
+            object-fit: cover; /* Maintain aspect ratio, cover the box */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        .service-image p {
+            margin-top: 10px;
+            color: #ffcc00;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .service-image:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+        }
+
+        /* Services Section */
+        .service-detail {
+            margin: 30px 20px;
+            padding: 20px;
+            border: 1px solid #333;
+            border-radius: 8px;
+            background-color: #222;
+            transition: background-color 0.3s ease;
+        }
+
+        .service-detail:hover {
+            background-color: #333;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px; /* Reduced padding */
+            background-color: #333;
+            color: #fff;
+            position: relative;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="services">
+            <h1>Our Services</h1>
+
+            <!-- Service Images with Highlighted Text -->
+            <div class="service-images">
+                <div class="service-image">
+                    <img src="cera.jpg" alt="Ceramic Coatings">
+                    <p>Ceramic Coating</p>
+                </div>
+                <div class="service-image">
+                    <img src="pp.jpg" alt="Paint Protection Film">
+                    <p>PPF</p>
+                </div>
+                <div class="service-image">
+                    <img src="ppp.jpg" alt="Paint Protection Film">
+                    <p>PPF</p>
+                </div>
+            </div>
+
+            <!-- Service Descriptions -->
+            <div class="service-detail">
+                <h2>Ceramic Coatings</h2>
+                <p>Our ceramic coatings are designed to protect your vehicle’s paintwork from the elements, enhance its shine, and make it easier to clean. As a Gtechniq-accredited detailer, we use advanced ceramic technology to deliver a high level of protection and gloss, ensuring your car maintains its pristine condition for years.</p>
+            </div>
+
+            <div class="service-detail">
+                <h2>Paint Protection Film (PPF)</h2>
+                <p>Paint Protection Film (PPF) is a clear, durable layer applied to your vehicle’s paintwork to protect it from scratches, chips, and other damage. Our expert installation ensures a seamless application that preserves your car’s appearance and value. Enjoy peace of mind knowing your paint is safeguarded from everyday hazards.</p>
+            </div>
+
+            <div class="service-detail">
+                <h2>Exterior Detailing</h2>
+                <p>Our exterior detailing service includes a comprehensive cleaning, polishing, and protection of your car’s exterior surfaces. We remove contaminants, restore paint clarity, and apply protective coatings to ensure your vehicle looks as good as new. Experience a showroom-quality finish every time.</p>
+            </div>
+
+            <div class="service-detail">
+                <h2>Interior Detailing</h2>
+                <p>Our interior detailing service is designed to rejuvenate your car’s interior, including seats, carpets, and dashboard. We meticulously clean, condition, and protect all surfaces, leaving your interior fresh, clean, and free from dirt and stains. Enjoy a comfortable and pristine driving environment.</p>
+            </div>
+
+            <div class="service-detail">
+                <h2>Steam Cleaning of Interior (Dry Cleaning)</h2>
+                <p>Our steam cleaning process provides a deep, thorough clean for your car’s interior using high-temperature steam. This method effectively removes dirt, bacteria, and odors, ensuring a hygienic and refreshing environment. It’s an eco-friendly option that revitalizes your interior without chemicals.</p>
+            </div>
+
+            <div class="service-detail">
+                <h2>Paint Correction / Machine Polishing / Scratch Removal</h2>
+                <p>Paint correction involves using specialized techniques and equipment to remove imperfections, scratches, and swirl marks from your car’s paintwork. Our machine polishing service restores the paint to its original shine, enhancing the overall appearance of your vehicle. Say goodbye to unsightly blemishes and hello to a flawless finish.</p>
+            </div>
+
+            <div class="service-detail">
+                <h2>Hard Water Spots Removal</h2>
+                <p>Hard water spots can mar the appearance of your car’s paintwork and are often difficult to remove. Our hard water spot removal service uses specialized techniques to safely and effectively eliminate these spots, restoring your paint’s clarity and brilliance.</p>
+            </div>
+
+            <div class="service-detail">
+                <h2>PPF Removal</h2>
+                <p>If you need to remove existing Paint Protection Film (PPF), our technicians can do so carefully and professionally. We ensure that the removal process does not damage your car’s paintwork, leaving it in pristine condition ready for a new protective layer or a fresh look.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CAR A-Z DETAILING. All rights reserved.</p>
+    </footer>
+</body>
+</html>
